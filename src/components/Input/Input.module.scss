@@ -1,0 +1,13 @@
+@import '/src/styles/variables';
+
+.input {
+	border: $border-primary;
+	border-radius: $border-rad-heavy;
+	padding: 1em;
+	&:hover {
+		border: $border-primary-hover;
+	}
+	&_defaultMargin {
+		margin-top: 1em;
+	}
+}

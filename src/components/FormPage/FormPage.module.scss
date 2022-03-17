@@ -1,0 +1,11 @@
+@import '/src/styles/variables';
+
+.container {
+	border: $border-secondary;
+	border-radius: $border-rad-heavy;
+	padding: 1em;
+}
+
+.submit {
+	margin: 1em 0 0 auto;
+}

@@ -1,0 +1,17 @@
+@import '/src/styles/variables';
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&_background {
+		background-color: var(--color-primary);
+		border-radius: $border-rad-light;
+		color: var(--color-button);
+		font-weight: 600;
+		padding: .8em 1em;
+		&:hover {
+			background-color: var(--color-primary-hover);
+		}
+	}
+}
